@@ -1,0 +1,32 @@
+{
+    "name": "directory-lister",
+    "author": "Chris Kankiewicz",
+    "license": "MIT",
+    "scripts": {
+        "cs": "npx eslint app/resources/js/**/*.js || true",
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "alpinejs": "^3.0.1",
+        "autoprefixer": "^10.2.5",
+        "axios": "^0.21.1",
+        "highlight.js": "^11.0.1",
+        "postcss": "^8.2.7"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "cross-env": "^7.0.3",
+        "eslint": "^7.21.0",
+        "laravel-mix": "^6.0.19",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.32.8",
+        "sass-loader": "^12.1.0",
+        "tailwindcss": "^2.1.0"
+    }
+}
