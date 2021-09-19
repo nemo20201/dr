@@ -1,82 +1,61 @@
-<p align="center">
-    <img src="directory-lister.svg" alt="Directory Lister" width="66%">
-</p>
-
-<p align="center">
-    <a href="https://github.com/DirectoryLister/DirectoryLister/discussions"><img src="https://img.shields.io/badge/Join_the-Community-7b16ff.svg?style=for-the-badge" alt="Join our Community"></a>
-    <a href="https://github.com/users/PHLAK/sponsorship"><img src="https://img.shields.io/badge/Become_a-Sponsor-cc4195.svg?style=for-the-badge" alt="Become a Sponsor"></a>
-    <a href="https://paypal.me/ChrisKankiewicz"><img src="https://img.shields.io/badge/Make_a-Donation-006bb6.svg?style=for-the-badge" alt="One-time Donation"></a>
-    <br>
-    <img alt="Packagist PHP Version Support" src="https://img.shields.io/packagist/php-v/phlak/directory-lister?style=flat-square">
-    <a href="https://github.com/DirectoryLister/DirectoryLister/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DirectoryLister/DirectoryLister?style=flat-square" alt="License"></a>
-    <a href="https://github.com/DirectoryLister/DirectoryLister/actions" alt="Build Status"><img src="https://img.shields.io/github/checks-status/DirectoryLister/DirectoryLister/master?style=flat-square"></a>
-</p>
+<div align="center">
+  <img src="./public/header.png" alt="onedrive-vercel-index" />
+  <h3><a href="https://drive.spencerwoo.com">onedrive-vercel-index</a></h3>
+  <p><em>Yet another-another OneDrive index, powered by Vercel and Next.js</em></p>
+  <img src="https://img.shields.io/badge/OneDrive-2C68C3?style=flat&logo=microsoft-onedrive&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" alt="Vercel" />
+  <a href="https://github.com/spencerwooo/onedrive-vercel-index/discussions"><img src="https://img.shields.io/github/discussions/spencerwooo/onedrive-vercel-index?color=CF2B5B&labelColor=black&logo=github" alt="GitHub Discussions" /></a>
+</div>
 
 ---
 
-Directory Lister is the easiest way to expose the contents of any web-accessible
-folder for browsing and sharing. With a zero configuration, drag-and-drop
-installation you'll be up and running in less than a minute.
+<h5>This is <a href="https://github.com/spencerwooo/onedrive-cf-index">onedrive-cf-index</a>'s little brother, basically the same, but powered by Next.js and Vercel.</h5>
 
-Directory Lister is created and maintained by
-[Chris Kankiewicz](https://www.chriskankiewicz.com)
-([@PHLAK](https://twitter.com/PHLAK)) with help from
-[community contributions](https://github.com/DirectoryLister/DirectoryLister/graphs/contributors).
+## Features
 
-Features
---------
+🚧 **_This is currently a work in progress._**
 
-  - **Simple installation** allows you to be up and running in less than a minute.
-  - **Light and dark themes** to suit your professional needs or personal style.
-  - **Custom sort ordering** gives you control of the ordering of your files/folders.
-  - **File search** helps you locate the files you need quickly and efficiently.
-  - **File hashes** instill confidence when downloading files through verification.
-  - **Readme rendering** allows exposing the contents of READMEs directly on the page.
-  - **Zip downloads** for fetching an entire directory of files in a single action.
-  - **Multi-lingual support** brings Directory Lister to the language of your choice.
+- [x] File preview (PDF, markdown, code, plain text, ...)
+- [x] Image preview in gallery mode
+- [x] Video and audio preview (mp4, mp3, ...)
+- [x] Office documents preview (docx, pptx, xlsx, ...)
+- [x] `README.md` preview rendering
+- [x] File permalink copy and direct file download
+- [x] Dark mode
+- [x] Protected routes (password protection and authentication) through `.password` files
+- [x] Pagination for folders with more than 200 items
 
-Requirements
-------------
+## Discussion
 
-  - Directory Lister requires [PHP](https://www.php.net/) >= 7.2
-    - The [Zip](https://www.php.net/manual/en/book.zip.php) extension is required for zip downloads
-    - The [DOM](https://www.php.net/en/dom) and [Fileinfo](https://www.php.net/manual/en/book.fileinfo.php) extensions are required for README rendering
+Please go to our [discussion forum](https://github.com/spencerwooo/onedrive-vercel-index/discussions) for general questions, **issues are for bug reports and bug reports only.**
 
-Installation
-------------
+## Demo
 
-  1. [Download Directory Lister](https://www.directorylister.com)
-  2. Extract the zip/tar archive
-  3. Copy extracted files/folders to your web server
+Available at: <https://drive.spencerwoo.com>.
 
-Configuration
--------------
+![demo](./public/demo.png)
 
-  1. Copy `.env.example` to `.env`
-  2. Edit the configuration values in `.env`
+## Deployment
 
-See the [Configuration Documentation](https://docs.directorylister.com/configuration) for more information.
+> Simplified version for now, will update for detailed documentations in due course.
 
-Sponsors
---------
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fspencerwooo%2Fonedrive-vercel-index&env=REFRESH_TOKEN,ACCESS_TOKEN,CLIENT_SECRET&envDescription=Required%20API%20tokens%20for%20this%20project.&project-name=onedrive-vercel-index&repo-name=onedrive-vercel-index&demo-title=onedrive-vercel-index&demo-description=Probably%20the%20best%20looking%20OneDrive%20Index%20around!%20Powered%20by%20Vercel%20and%20Next.js.&demo-url=http%3A%2F%2Fonedrive-vercel-index.vercel.app&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fspencerwooo%2Fonedrive-vercel-index%2Fmain%2Fpublic%2Fdemo.png)
 
-<a href="https://besturate.com"><img src="https://i.imgur.com/fUKxT63.png" alt="Besturate" height="100" style="height: 100px;"></a>
+- Use the button above to deploy the project to Vercel. Vercel will automatically fork and clone the project to your GitHub account.
+- Define environment variables inside Vercel: `REFRESH_TOKEN`, `ACCESS_TOKEN`, `CLIENT_SECRET`.
+- Finally, change configuration file [`config/api.json`](config/api.json) and [`config/site.json`](config/site.json) according to your configs.
 
-Changelog
----------
+The authentication tokens and variables are the same as what you configured in the [`onedrive-cf-index`](https://github.com/spencerwooo/onedrive-cf-index) project. Detailed documentations can also be found there (for now). This project is at its early stages, for discussions *please, please, please* post to the [discussion forum](https://github.com/spencerwooo/onedrive-vercel-index/discussions).
 
-A list of changes can be found on the [GitHub Releases](https://github.com/DirectoryLister/DirectoryLister/releases) page.
+## Protected routes
 
-Troubleshooting
----------------
+See: [Announcements - Password protected routes is now supported #66](https://github.com/spencerwooo/onedrive-vercel-index/discussions/66).
 
-See the [Help & Support](https://docs.directorylister.com/help-and-support) section of the documentation for troubleshooting instructions.
+---
 
-For general help and support join our [GitHub Discussion](https://github.com/DirectoryLister/DirectoryLister/discussions) or reach out on [Twitter](https://twitter.com/DirectoryLister).
+**onedrive-vercel-index** ©Spencer Woo. Released under the MIT License.
 
-Please report bugs to the [GitHub Issue Tracker](https://github.com/DirectoryLister/DirectoryLister/issues).
+Authored and maintained by Spencer Woo.
 
-Copyright
----------
-
-This project is licensed under the [MIT License](https://github.com/DirectoryLister/DirectoryLister/blob/master/LICENSE).
+> [@Portfolio](https://spencerwoo.com/) · [@Blog](https://blog.spencerwoo.com/) · [@GitHub](https://github.com/spencerwooo)

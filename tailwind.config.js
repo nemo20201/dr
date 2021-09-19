@@ -1,40 +1,39 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+const siteConfig = require('./config/site.json')
 
 module.exports = {
-    darkMode: 'class',
-    mode: 'jit',
-    purge: {
-        mode: 'all',
-        content: [
-            'app/resources/**/*.{js,scss}',
-            'app/src/**/*.php',
-            'app/views/**/*.twig',
-        ],
-        options: {
-            safelist: ['html', 'body', 'main', 'fab', 'fas', /^hljs/],
-        }
+  mode: 'jit',
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'media',
+  theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      red: colors.rose,
+      yellow: colors.amber,
+      green: colors.green,
+      blue: colors.sky,
+      indigo: colors.indigo,
+      purple: colors.purple,
+      pink: colors.pink
     },
-    theme: {
-        extend: {
-            colors: {
-                blue: colors.sky,
-                gray: colors.blueGray,
-                purple: colors.violet,
-            },
-            fontFamily: {
-                merriweather: ['Merriweather', ...defaultTheme.fontFamily.serif],
-                mono: ['Source Code Pro', ...defaultTheme.fontFamily.mono],
-                sans: ['Work Sans', ...defaultTheme.fontFamily.sans],
-            },
-            textColor: {
-                github: '#171515',
-                twitter: '#1DA1F2'
-            }
+    extend: {
+      fontFamily: {
+        sans: [`"${siteConfig.googleFont}"`, '"Noto Sans SC"', ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        gray: {
+          850: '#2E2E34'
         }
-    },
-    variants: {
-        backgroundOpacity: ['dark'],
-        visibility: ['responsive', 'hover', 'group-hover']
+      }
     }
-};
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
