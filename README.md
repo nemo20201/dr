@@ -1,4 +1,5 @@
 <div align="center">
+<<<<<<< HEAD
 
 <img src="./assets/vscode-math-to-image.png" width="125px" alt="logo">
 
@@ -11,10 +12,21 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/MeowTeam.vscode-math-to-image?label=downloads&color=82a0ba)
 ![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/MeowTeam.vscode-math-to-image?color=e89927)
 
+=======
+  <img src="https://raw.githubusercontent.com/spencerwooo/onedrive-vercel-index/main/public/header.png" alt="onedrive-vercel-index" />
+  <h3><a href="/">onedrive-vercel-index</a></h3>
+  <p><em>Yet another-another OneDrive index, powered by Vercel and Next.js</em></p>
+
+  <img style="display: inline-block;" src="https://img.shields.io/badge/OneDrive-2C68C3?style=flat&logo=microsoft-onedrive&logoColor=white" alt="Next.js" />
+  <img style="display: inline-block;" src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img style="display: inline-block;" src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" alt="Vercel" />
+  <a href="https://github.com/spencerwooo/onedrive-vercel-index/discussions"><img style="display: inline-block;" src="https://img.shields.io/github/discussions/spencerwooo/onedrive-vercel-index?color=CF2B5B&labelColor=black&logo=github" alt="GitHub Discussions" /></a>
+>>>>>>> 0b43420e7d28df3736b72ba462cfe9c207f2c2f4
 </div>
 
 This is a VS Code extension to help you convert a standard LaTeX math equation like `$E=mc^2$` to an image like <img src="https://render.githubusercontent.com/render/math?math=E%3Dmc%5E2"> (remote) or a local SVG which can be embedded inside Markdown files or websites that doesn't support rendering LaTeX yet. ~~(That's you GitHub!)~~
 
+<<<<<<< HEAD
 Read more about _Math to Image_ here:
 - <a href="https://sm.ms/image/sErtzjdBYkR71pc" target="_blank"><img src="https://i.loli.net/2020/08/04/sErtzjdBYkR71pc.png" height="18px" ></a> **少数派：**[不支持 LaTeX 也能插入数学公式，这个小插件帮你实现「徒手渲染」](https://sspai.com/post/61877)。
 - <a href="https://sm.ms/image/NQiuDlbxYeJBa1w" target="_blank"><img src="https://i.loli.net/2020/08/04/NQiuDlbxYeJBa1w.png" height="18px" ></a> **Medium:** [VS Code Math to Image: Write LaTeX Math Equations in GitHub Markdown the Easy Way!](https://medium.com/spencerweekly/vs-code-math-to-image-write-latex-math-equations-in-github-markdown-the-easy-way-9fa8b81dc910?source=friends_link&sk=cff035b443fb81f5b20a47370f23aed3)
@@ -111,3 +123,28 @@ For version updates and bug fixes, please see: [CHANGELOG](CHANGELOG.md).
 Authored and maintained by TeamMeow members.
 
 > 🦁 We build things that go "meow" · [@GitHub](https://github.com/TeamMeow) · [@Members](https://github.com/orgs/TeamMeow/people?type=source)
+=======
+## Yoo, I'm Spencer Woo 👋
+
+This is Spencer's OneDrive public directory listing. Feel free to download any files that you find useful. Reach me at: spencer.wushangbo [at] gmail [dot] com.
+
+### Interesting files
+
+| Route                                             | Details                                                                                         |
+| :------------------------------------------------ | :---------------------------------------------------------------------------------------------- |
+| [**🎻 Genshin playlist**](/🎻%20Genshin%20playlist) | Some of the OST that I like in Genshin Impact.                                                  |
+| [**🍡 Genshin PV**](/🍡%20Genshin%20PV)             | Genshin Impact character teasers, PVs, and EPs (4 languages).                                   |
+| [**🍏 Genshin emotes**](/🍏%20Genshin%20emotes)     | Genshin character emojis. Derived from Telegram stickers.                                       |
+| [**🍊 Weibo emotes**](/🍊%20Weibo%20emotes)         | Weibo emojis. Derived from repo: [ArvinZJC/WeiboEmoji](https://github.com/ArvinZJC/WeiboEmoji). |
+
+## Licensing
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+- This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+- All Genshin Impact content and artwork belongs to [miHoYo](https://genshin.mihoyo.com/).
+
+---
+
+> [@Portfolio](https://spencerwoo.com/) · [@Blog](https://blog.spencerwoo.com/) · [@GitHub](https://github.com/spencerwooo)
+>>>>>>> 0b43420e7d28df3736b72ba462cfe9c207f2c2f4
